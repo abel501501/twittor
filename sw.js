@@ -6,7 +6,7 @@ const INMUTABLE_CACHE = 'inmutable-v1';
 
 
 const APP_SHELL = [
-    '/',
+    //'/',
     'index.html',
     'css/style.css',
     'img/favicon.ico',
@@ -63,6 +63,7 @@ self.addEventListener('activate', e => {
 
     e.waitUntil( respuesta );
 });
+
 
 self.addEventListener( 'fetch', e => { 
 
